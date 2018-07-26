@@ -1,0 +1,26 @@
+{
+  "name": "next-routes-examples",
+  "version": "1.0.0",
+  "author": "Julien Bouquillon <julien.bouquillon@sg.social.gouv.fr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revolunet/next-routes-examples.git"
+  },
+  "homepage": "https://revolunet.github.io/next-routes-examples/",
+  "bugs": {
+    "url": "https://github.com/revolunet/next-routes-examples/issues"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
